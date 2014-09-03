@@ -119,6 +119,7 @@ function handleActionkitError(errors) {
 */      
 function handleActionkitSuccess(form) {
 
+  window.parent.location = "http://noslowlane.com/cms/thanks/NoSlowLane";	
   window.location = "http://noslowlane.com/cms/thanks/NoSlowLane";	
 };
 
