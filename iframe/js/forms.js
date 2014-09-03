@@ -115,19 +115,14 @@ function handleActionkitError(errors) {
         
 
 
-/* Handle Action Kit submission success
-/* Form fades out to reveal a thanks message.
-/* Easy to escape from here with esc key or
-/* Clicking X or out of lightbox
+/* Just redirecting to our thanks page
 */      
 function handleActionkitSuccess(form) {
 
-  window.location = "http://noslowlane.com/cms/thanks/NoSlowLane";
-			
+  window.location = "http://noslowlane.com/cms/thanks/NoSlowLane";	
 };
 
 $('input[type="radio"] + label, input[type="radio"]').addClass('radio');
-
   
 $('input[type=radio]').on('click', function() {
    	var radio_for = this.name;
