@@ -122,61 +122,9 @@ function handleActionkitError(errors) {
 */      
 function handleActionkitSuccess(form) {
 
-		
-		if(form.indexOf('p100_app') > -1){
-			var akid = getQueryVariable(form, 'akid').substring(1).split('.')[0];
-			$('#input_akid').val(akid);
-		$("#resume_upload_form").fadeIn();
-		$("#thankyou").modal();
-		$("#thankyou").modal('show');	
-		} else {
-		$('.modal').modal('hide');
-	
-		/*Thank you message */
-		var thanks = '<p>Thank you.  You should recieve an email confirmation shortly.</p>'
-		$("#thankyou .modal-body").html(thanks);
-		$("#thankyou").modal();
-		$("#thankyou").modal('show');
-		    
-		}
-		
-
-		
+  window.location = "http://noslowlane.com/cms/thanks/NoSlowLane";
+			
 };
-
-
-
-
-/*$('#resume_up').ajaxForm({
-    beforeSend: function() {
-			console.log('before send');
-    },
-    success: function() {
-        console.log('awesome');
-    },
-	complete: function(xhr) {
-		console.log(xhr.responseText);
-	},
-	error: function(){
-		$('#resume_upload_form').fadeOut();
-		$("#thankyou .modal-body").html('<span class="error" style="display:none">Something went wrong with your resume! However, we did successfully recieve your application, and we will contact you soon.</span>');
-		$('#thankyou .modal-body').children().fadeIn();
-	}
-	}); 
-
-
-
-
-$(document).on('submit','#resume_up',function(e){
-		e.preventDefault();
-		/*$.post("http://boldprogressives.org/resume_upload.php", $(this).serializeObject(), function(){
-				$('#resume_upload_form').fadeOut();
-				var upload_confirm = '<span id="upload_confirm" style="display:none">Thanks! Your resume uploaded successfully!</span>';
-				$("#thankyou .modal-body").html(upload_confirm);
-				$('#thankyou .modal-body').children().fadeIn();
-		});
-		return false;
-});*/
 
 $('input[type="radio"] + label, input[type="radio"]').addClass('radio');
 
