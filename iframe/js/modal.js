@@ -59,17 +59,18 @@ var animations = {
                 }, 1000);
             });
 
-            $("form[name=petition]").submit(function(e) {
-                e.preventDefault();
-                if (this.postUser($(this))) {
+            // Maxb - commenting out their fancy form submission
+            // $("form[name=petition]").submit(function(e) {
+            //     e.preventDefault();
+            //     if (this.postUser($(this))) {
                     
-                    $("input:not([type=image],[type=button],[type=submit])").val('');
-                    this.showFinal();
+            //         $("input:not([type=image],[type=button],[type=submit])").val('');
+            //         this.showFinal();
                     
-                } else {
-                    // alert('Please complete the rest of the form. Thanks!');
-                }
-            }.bind(this));
+            //     } else {
+            //         // alert('Please complete the rest of the form. Thanks!');
+            //     }
+            // }.bind(this));
 
             $('a.facebook').click(function(e) {
                 trackLeaderboardStat({stat: 'share', data: 'facebook'});
