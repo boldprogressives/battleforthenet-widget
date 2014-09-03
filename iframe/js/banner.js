@@ -68,9 +68,6 @@ var animations = {
         },
 
         getUrl: function() {
-            console.log(this);
-            console.log(this.options);
-            console.log(this.options.url);
             return sanitize(this.options.url)+'?from=banner';
         },
 
