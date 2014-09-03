@@ -34,13 +34,14 @@
 				The Internet and free speech would never be the same.
 				<strong>Tell lawmakers: "Stop discrimination. Defend net neutrality."</strong>
 			</p>
-      <form class="ak-form" name="act" id="no-slow-lane-form" method="POST" action="javascript:submitForm('no-slow-lane-form', 'noslowlane_modal_widget');" accept-charset="utf-8">
+      <form method="post" target="_blank" action="http://act.boldprogressives.org/survey/noslowlane_modal_widget/">
 				<div class="fields">
+          <input type="hidden" name="page" value="NoSlowLane">
           <input type="hidden" name="source" value="slowdown-modal">
 					<input type="text" name="name" placeholder="Name"/>
-					<input type="text" name="email" placeholder="Email"/>
+					<input type="text" name="email" required placeholder="Email"/>
 					<input type="text" name="address1" placeholder="Address"/>
-					<input type="text" name="zip" placeholder="Zip"/>
+					<input type="text" name="zip" required placeholder="Zip"/>
 				</div>
 				<div class="clear"></div>
 				<div class="action">
@@ -89,8 +90,6 @@
 <script type="text/javascript" src="js/min/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="js/min/modal.min.js"></script>
 <script type="text/javascript" src="js/min/common.min.js"></script>
-<script type="text/javascript" src="js/pccc-ak-async-post.js"></script>
-<script type="text/javascript" src="js/forms.js"></script>
 
 </body>
 </html>
