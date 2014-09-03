@@ -129,7 +129,7 @@ var _bftn_animations = {
 			height: 100,
 			offsetX: 10, 
 			offsetY: 20,
-			url: 'https://www.battleforthenet.com',
+			url: 'http://noslowlane.com',
 			theme: 'light'
 		},
 
