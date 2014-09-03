@@ -170,6 +170,10 @@ validators = {};
     
       form.find("input[name=zip]").css("background-color", "white");
     }
+
+    if (!form.find("#opt-in")) {
+      valid = false;
+    }
    
     return valid;
   
