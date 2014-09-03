@@ -118,9 +118,8 @@ function handleActionkitError(errors) {
 /* Just redirecting to our thanks page
 */      
 function handleActionkitSuccess(form) {
-
-  window.parent.location = "http://noslowlane.com/cms/thanks/NoSlowLane";	
-  window.location = "http://noslowlane.com/cms/thanks/NoSlowLane";	
+  window.parent.location = "http://noslowlane.com/";	
+  window.location = "http://noslowlane.com/";	
 };
 
 $('input[type="radio"] + label, input[type="radio"]').addClass('radio');
