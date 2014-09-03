@@ -43,7 +43,7 @@ Installation Instructions (Banner)
 ----------------------------------
 **See the demo:** [**Light**][3] | [**Dark**][7]
 
-![Banners](https://fightforthefuture.github.io/battleforthenet-widget/demos/banner.png)
+![Banners](https://boldprogressives.github.io/battleforthenet-widget/demos/banner.png)
 
 The banner shows up in one of the corners (you can customize), or as a strip
 along the top or bottom on mobile devices. You can choose a light or dark theme.
@@ -53,7 +53,7 @@ To install, paste this code into your `HEAD` tag:
 <script type="text/javascript">
     var _bftn_options = { animation: 'banner' }
 </script>
-<script src="//fightforthefuture.github.io/battleforthenet-widget/widget.min.js"
+<script src="//boldprogressives.github.io/battleforthenet-widget/widget.min.js"
     async></script>
 ```
 
@@ -83,7 +83,7 @@ other options in to customize the position of the banner on-screen.
       theme: 'dark'
     }
 </script>
-<script src="//fightforthefuture.github.io/battleforthenet-widget/widget.min.js"
+<script src="//boldprogressives.github.io/battleforthenet-widget/widget.min.js"
     async></script>
 ```
 
@@ -95,7 +95,7 @@ other options in to customize the position of the banner on-screen.
       url: 'https://www.YOURPETITIONPAGEHERE.org'
     }
 </script>
-<script src="//fightforthefuture.github.io/battleforthenet-widget/widget.min.js"
+<script src="//boldprogressives.github.io/battleforthenet-widget/widget.min.js"
     async></script>
 ```
 
@@ -104,14 +104,14 @@ Installation Instructions (Modal)
 ---------------------------------
 **See the demo:** [**Development version**][2]
 
-![Modal](https://fightforthefuture.github.io/battleforthenet-widget/demos/modal.png)
+![Modal](https://boldprogressives.github.io/battleforthenet-widget/demos/modal.png)
 
 The modal animation will show up front-and-center on your page, prompting
 visitors to contact the FCC and Congress. To install, simply embed this code
 into your `HEAD` tag:
 
 ```html
-<script src="//fightforthefuture.github.io/battleforthenet-widget/widget.min.js"
+<script src="//boldprogressives.github.io/battleforthenet-widget/widget.min.js"
     async></script>
 ```
 
@@ -123,7 +123,7 @@ If you want to show off the modal to your users prior to September 10th
 
 ```html
 <iframe style="width: 750px; height: 467px;" frameborder="no"
-  src="https://fightforthefuture.github.io/battleforthenet-widget/iframe/modal.html#EMBED">
+  src="https://boldprogressives.github.io/battleforthenet-widget/iframe/modal.html#EMBED">
   </iframe>
 ```
 
@@ -146,9 +146,9 @@ Modern browsers, and the two latest versions of Internet Explorer.
 
 
 [1]: https://www.battleforthenet.com/sept10th
-[2]: https://fightforthefuture.github.io/battleforthenet-widget/demos/modal.html
-[3]: https://fightforthefuture.github.io/battleforthenet-widget/demos/banner.html
+[2]: https://boldprogressives.github.io/battleforthenet-widget/demos/modal.html
+[3]: https://boldprogressives.github.io/battleforthenet-widget/demos/banner.html
 [4]: https://github.com/fightforthefuture/battleforthenet-widget/issues
 [5]: mailto:jeff@fightforthefuture.org
 [6]: https://github.com/fightforthefuture/battleforthenet-widget/blob/master/widget.js
-[7]: https://fightforthefuture.github.io/battleforthenet-widget/demos/banner.dark.html
+[7]: https://boldprogressives.github.io/battleforthenet-widget/demos/banner.dark.html
