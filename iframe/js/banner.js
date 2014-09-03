@@ -26,7 +26,7 @@ var animations = {
     banner: {
         options: {
             debug: false,
-            url: 'https://www.battleforthenet.com',
+            url: 'http://noslowlane.com/',
             theme: 'dark'
         },
         init: function(options) {

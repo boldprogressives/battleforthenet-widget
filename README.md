@@ -1,4 +1,4 @@
-Battle for the Net Widget
+Battle for the Net Widget - PCCC Style
 -------------------------
 #### Join the battle for net neutrality with our action widget!
 
@@ -6,10 +6,7 @@ September 10th, 2014 is [**Internet Slowdown Day!**][1] The goal of this
 project is to allow anyone with a web site to run their own campaign to save net
 neutrality. Simply embed a couple of lines of Javascript and you're good to go!
 
-To stay up-to-date on developments, please subscribe to our
-[**developer mailing list**][1]. If you have any problems or questions regarding
-the widget, please [submit an issue][4] or [email Jeff Lyon][5].
-
+Contact maxb@boldprogressives.org for questions about embedding, etc.
 
 How it works
 ------------
@@ -70,7 +67,7 @@ other options in to customize the position of the banner on-screen.
 * `offsetY`: The number of pixels to "nudge" the banner away from the top of the
   window
 * `url`: The URL that clicking the banner should go to. Default is
-  _https://www.battleforthenet.com_
+  _http://noslowlane.com_
 
 #### Customized banner examples:
 
@@ -127,18 +124,11 @@ If you want to show off the modal to your users prior to September 10th
   </iframe>
 ```
 
-We'll be working on adding new features between now and September 10th, (the
-code you embed on your page won't change though). Be sure to let your users
-know this is under development and link them back to
-**https://www.battleforthenet.com/sept10th**
-
-
 How to test the widget
 ----------------------
 **The widget is designed to only appear on September 10th, 2014**, and only
 once, per user, per device. If you'd like to force it to show up on your page
 for testing, please (re)load the page with #SHOW_BFTN_WIDGET in the URL.
-
 
 Which browsers are supported
 ----------------------------
@@ -148,7 +138,5 @@ Modern browsers, and the two latest versions of Internet Explorer.
 [1]: https://www.battleforthenet.com/sept10th
 [2]: https://boldprogressives.github.io/battleforthenet-widget/demos/modal.html
 [3]: https://boldprogressives.github.io/battleforthenet-widget/demos/banner.html
-[4]: https://github.com/fightforthefuture/battleforthenet-widget/issues
-[5]: mailto:jeff@fightforthefuture.org
-[6]: https://github.com/fightforthefuture/battleforthenet-widget/blob/master/widget.js
+[6]: https://github.com/boldprogressives/battleforthenet-widget/blob/master/widget.js
 [7]: https://boldprogressives.github.io/battleforthenet-widget/demos/banner.dark.html
