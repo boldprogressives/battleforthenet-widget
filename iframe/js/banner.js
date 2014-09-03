@@ -68,7 +68,7 @@ var animations = {
         },
 
         getUrl: function() {
-            return sanitize(this.options.url)+'?from=banner';
+            return sanitize(this.options.url)+'?source=slowdown-banner';
         },
 
         doClick: function(e) {
