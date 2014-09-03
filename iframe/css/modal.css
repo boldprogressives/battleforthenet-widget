@@ -283,7 +283,7 @@ body #overlay {
   width: 22px;
   height: 22px;
   opacity: .9;
-  background: url(../../images/close.png) left top no-repeat;
+  background: url(../images/close.png) left top no-repeat;
   background-size: 22px 22px;
   z-index: 9000;
 }
@@ -316,7 +316,7 @@ body #overlay {
   padding: 0px 20px;
   font-size: 16px;
   /*box-shadow: inset 1px 4px 9px -6px rgba(0,0, 0, .5);*/
-  background: #ffffff url(../../images/field-gradient.png) left top repeat-x;
+  background: #ffffff url(../images/field-gradient.png) left top repeat-x;
   color: #4b616c;
   font-weight: bold;
   font-family: proxima-nova, Arial, sans-serif;
@@ -361,7 +361,7 @@ body #overlay {
   margin-right: 25px;
   width: 41px;
   padding-top: 28px;
-  background: url(../../images/envelope.png) left top no-repeat;
+  background: url(../images/envelope.png) left top no-repeat;
   text-transform: uppercase;
   color: #5d9083;
   font-size: 12px;
@@ -369,7 +369,7 @@ body #overlay {
   text-align: center;
 }
 #modal .action a.read:hover {
-  background-image: url(../../images/envelope-hover.png);
+  background-image: url(../images/envelope-hover.png);
   color: #72ad9f;
 }
 #modal .action button {
@@ -438,11 +438,11 @@ body #overlay {
   vertical-align: middle;
   width: 13px;
   height: 12px;
-  background: url(../../images/check-off.png) center center no-repeat;
+  background: url(../images/check-off.png) center center no-repeat;
   margin-right: 6px;
 }
 #modal .action .disclosure input[type=checkbox]:checked + .checkbox:before {
-  background: url(../../images/check-on.png) center center no-repeat;
+  background: url(../images/check-on.png) center center no-repeat;
 }
 #overlay {
   position: absolute;
@@ -817,10 +817,10 @@ body #overlay {
   #modal .action .disclosure .checkbox:before {
     width: 20px;
     height: 17px;
-    background: url(../../images/check-off-big.png) center center no-repeat;
+    background: url(../images/check-off-big.png) center center no-repeat;
   }
   #modal .action .disclosure input[type=checkbox]:checked + .checkbox:before {
-    background: url(../../images/check-on-big.png) center center no-repeat;
+    background: url(../images/check-on-big.png) center center no-repeat;
   }
 }
 /* -------------------------------------------------------------------------- */
