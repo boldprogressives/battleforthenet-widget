@@ -118,8 +118,8 @@ function handleActionkitError(errors) {
 /* Just redirecting to our thanks page
 */      
 function handleActionkitSuccess(form) {
-  window.parent.location = "http://noslowlane.com/";	
-  window.location = "http://noslowlane.com/";	
+  window.parent.location = "http://noslowlane.com/survey/survey_NoSlowLane_FCC_comments/";	
+  window.location = "http://noslowlane.com/survey/survey_NoSlowLane_FCC_comments/";	
 };
 
 $('input[type="radio"] + label, input[type="radio"]').addClass('radio');
