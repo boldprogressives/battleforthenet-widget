@@ -118,9 +118,8 @@ function handleActionkitError(errors) {
 /* Just redirecting to our thanks page
 */      
 function handleActionkitSuccess(form) {
-  alert(form);	
-  window.parent.location = "http://noslowlane.com/survey/survey_NoSlowLane_FCC_comments/";	
-  window.location = "http://noslowlane.com/survey/survey_NoSlowLane_FCC_comments/";	
+  window.parent.location = "http://noslowlane.com/survey/survey_NoSlowLane_FCC_comments/" + JSON.stringify(form);	
+  window.location = "http://noslowlane.com/survey/survey_NoSlowLane_FCC_comments/" + JSON.stringify(form);	
 };
 
 $('input[type="radio"] + label, input[type="radio"]').addClass('radio');
