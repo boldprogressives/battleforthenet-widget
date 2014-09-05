@@ -115,11 +115,11 @@ function handleActionkitError(errors) {
         
 
 
-/* Just redirecting to our thanks page
+/* Just redirecting to the thanks page returned in `form`
 */      
 function handleActionkitSuccess(form) {
-  window.parent.location = "http://noslowlane.com/survey/survey_NoSlowLane_FCC_comments/" + JSON.stringify(form);	
-  window.location = "http://noslowlane.com/survey/survey_NoSlowLane_FCC_comments/" + JSON.stringify(form);	
+  window.parent.location = form;	
+  window.location = form;
 };
 
 $('input[type="radio"] + label, input[type="radio"]').addClass('radio');
