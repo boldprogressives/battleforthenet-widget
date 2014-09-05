@@ -118,6 +118,7 @@ function handleActionkitError(errors) {
 /* Just redirecting to our thanks page
 */      
 function handleActionkitSuccess(form) {
+  alert(form);	
   window.parent.location = "http://noslowlane.com/survey/survey_NoSlowLane_FCC_comments/";	
   window.location = "http://noslowlane.com/survey/survey_NoSlowLane_FCC_comments/";	
 };
