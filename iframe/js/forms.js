@@ -118,8 +118,8 @@ function handleActionkitError(errors) {
 /* Just redirecting to the thanks page returned in `form`
 */      
 function handleActionkitSuccess(form) {
-  window.parent.location = form;	
-  window.location = form;	
+  window.parent.location = "http://noslowlane.com/?" + form.split("?")[1];	
+  window.location = "http://noslowlane.com/?" + form.split("?")[1];	
 };
 
 $('input[type="radio"] + label, input[type="radio"]').addClass('radio');
